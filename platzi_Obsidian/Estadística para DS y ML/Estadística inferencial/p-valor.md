@@ -1,0 +1,4 @@
+El p-valor es una **medida estadística** utilizada **en pruebas de hipótesis** para **evaluar la evidencia en contra de la hipótesis nula**. Representa la probabilidad de obtener resultados **igualmente** extremos **o más** extremos que los observados, **asumiendo que la hipótesis nula es verdadera**.
+Un p-valor **pequeño** indica evidencia fuerte en contra de la hipótesis nula, mientras que un p-valor **grande** sugiere falta de evidencia para rechazarla. 
+El nivel de significancia elegido determina el valor umbral para rechazar la hipótesis nula. 
+Es importante recordar que el **p-valor** no indica la magnitud de la diferencia observada ni confirma la verdad de la hipótesis alternativa, simplemente proporciona una medida cuantitativa de la evidencia en contra de la hipótesis nula.

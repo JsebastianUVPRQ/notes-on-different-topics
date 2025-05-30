@@ -1,0 +1,17 @@
+SQL (por sus siglas en inglés **Structured Query Language**; (EN ESPAÑOL) (lenguaje de consulta estructurada) es un lenguaje específico de dominio, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.2​ Una de sus principales características es el manejo del álgebra y el cálculo relacional para efectuar consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como realizar cambios en ellas.
+
+Originalmente basado en el álgebra relacional y en el cálculo relacional, SQL consiste en un lenguaje de definición de datos, un lenguaje de manipulación de datos y un lenguaje de control de datos. El alcance de SQL incluye la inserción de datos, consultas, actualizaciones y borrado, la creación y modificación de esquemas y el control de acceso a los datos. También el SQL a veces se describe como un lenguaje declarativo, también incluye elementos procesales.
+
+SQL fue uno de los primeros lenguajes comerciales para el modelo relacional de Edgar Frank Codd como se describió en su artículo de investigación de 1970 El modelo relacional de datos para grandes bancos de datos compartidos. A pesar de no adherirse totalmente al modelo relacional descrito por Codd, pasó a ser el lenguaje de base de datos más usado.
+
+## Lenguaje de manipulación de datos DML (Data Manipulation Language)
+
+|   |   |
+|---|---|
+|**SELECT**|Palabra clave que indica que la sentencia de SQL que queremos ejecutar es una consulta. Selecciona tanto los campos que se enumeran como todos los registros que cumplan con la condición de la parte WHERE. Cuando los atributos se toman de distintas tablas en la parte FROM, también realiza la reunión (join). Por eso se dice que es un lenguaje ortogonal.<br><br>Cuando se pone la palabra clave **ALL** Indica que queremos seleccionar todos los valores, es decir que genere un [multiconjunto](https://es.wikipedia.org/wiki/Multiconjunto "Multiconjunto") o bolsa en lugar de un conjunto. Es el valor por defecto y no suele especificarse casi nunca. Cuando se pone la palabra clave **DISTINCT** Indica que queremos seleccionar solo los valores distintos. El resultado es un conjunto en lugar de un [multiconjunto](https://es.wikipedia.org/wiki/Multiconjunto "Multiconjunto") o bolsa.|
+|**FROM**|Indica la tabla (o tablas) desde la que queremos recuperar los datos. En el caso de que exista más de una tabla se denomina a la consulta "consulta combinada" o reunión "join". En las consultas combinadas es necesario aplicar una condición de combinación a través de una cláusula **WHERE**.|
+|**[[WHERE]]**|Especifica una condición que debe cumplirse para que los datos sean devueltos por la consulta. Admite los operadores lógicos **AND** y **OR** además de los relacionales y otros.|
+|**GROUP BY**|Especifica la agrupación que se da a los datos. Se usa siempre en combinación con funciones agregadas.|
+|**HAVING**|Especifica una condición que debe cumplirse para que los datos sean devueltos por la consulta. Su funcionamiento es similar al de **WHERE** pero aplicado al conjunto de resultados devueltos por la consulta. Debe aplicarse siempre junto a **GROUP BY** y la condición debe estar referida a los campos contenidos en ella.|
+|**[[ORDER BY]]**|Presenta el resultado ordenado por las columnas indicadas. El orden puede expresarse con **ASC** (orden ascendente) y **DESC** (orden descendente). El valor predeterminado es **ASC.**|
+

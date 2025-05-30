@@ -1,0 +1,3 @@
+### **Problema 2**  
+
+Considere la propagación de ondas electromagnéticas en un medio conductor de conductividad    $\sigma$. Obtenga la ecuación de onda para el campo eléctrico $E$ y calcule las partes real e imaginaria del número de onda complejo. Calcule la profundidad de piel (o longitud de penetración) $d$ para un buen conductor $\sigma \gg \omega\epsilon$) y en un conductor pobre $(\sigma \ll \omega\epsilon$). Muestre que en un buen conductor el campo magnético está desfasado en $\frac{\pi}{4}$ con respecto al campo eléctrico.

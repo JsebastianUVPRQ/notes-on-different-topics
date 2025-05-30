@@ -1,0 +1,7 @@
+Se destaca la importancia de construir un almacén de datos que permita realizar preguntas y obtener respuestas sobre las operaciones comerciales. Se describen dos etapas cruciales en la analítica de datos: la ingestión de datos, donde se obtiene y almacena el dato crudo, y el procesamiento de datos, que limpia y transforma el dato para su posterior análisis.
+
+Se aborda la ingestión de datos, que implica obtener y almacenar datos de diversas fuentes, y se menciona la necesidad de filtrar datos sospechosos o corruptos. La transformación de datos en un formato útil para el análisis, conocida como "wrangling", se destaca como un paso importante. También se explican las etapas de procesamiento de datos, donde se limpia y convierte el dato en formatos significativos, como tablas, gráficos o documentos.
+
+Se mencionan las herramientas y servicios utilizados en la ingestión y procesamiento de datos, como Azure Functions, Azure Databricks y Azure Cognitive Services. Además, se presenta la diferencia entre los enfoques ETL (Extract, Transform, Load) y ELT (Extract, Load, Transform) en el procesamiento de datos.
+
+El texto concluye destacando las opciones proporcionadas por Microsoft Azure para implementar los enfoques ETL y ELT, como SQL Server Integration Services y Azure Data Factory. Se resaltan las ventajas de cada enfoque y se menciona que Azure Data Factory permite la creación de flujos de trabajo basados en la nube para la integración y transformación de datos a escala.

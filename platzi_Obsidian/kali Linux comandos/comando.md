@@ -1,0 +1,3 @@
+Un comando Linux es un programa o utilidad que se ejecuta en la CLI, una consola que interactúa con el sistema a través de textos y procesos. Es similar a la aplicación Símbolo del Sistema en Windows.
+
+Los comandos de Linux se ejecutan en el Terminal pulsando **Enter** al final de la línea. Puedes ejecutar comandos para realizar diversas tareas, desde la instalación de paquetes hasta la gestión de usuarios y la manipulación de archivos.
