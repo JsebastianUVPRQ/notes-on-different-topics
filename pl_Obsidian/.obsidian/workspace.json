@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Métodos Matemáticos Física/The Fourier transform - 2.md",
+                "file": "Mecánica clásica/POTENCIALES - KEPLER - ORBITAS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Fourier transform - 2"
+              "title": "POTENCIALES - KEPLER - ORBITAS"
             }
           }
         ],
@@ -173,7 +173,7 @@
               "type": "calendar",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Complemento no activo"
             }
           },
           {
@@ -212,8 +212,11 @@
   },
   "active": "ba02e96b015c8041",
   "lastOpenFiles": [
-    "Métodos Matemáticos Física/The Fourier transform.md",
+    "Mecánica clásica/Variational calculus - Calculo de variaciones.md",
+    "Mecánica clásica/POTENCIALES - KEPLER - ORBITAS.md",
+    "Mecánica clásica/Fuerzas generalizadas.md",
     "Métodos Matemáticos Física/The Fourier transform - 2.md",
+    "Métodos Matemáticos Física/The Fourier transform.md",
     "Métodos Matemáticos Física/Ejercicios Transformadas de Fourier Normas.md",
     "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
     "Métodos Matemáticos Física/SOLUCION.md",
@@ -236,9 +239,6 @@
     "Mecánica Cuántica/Ecuaciones fundamentales.md",
     "Mecánica Cuántica/Formalismo.md",
     "Ecuaciones Diferenciales/Topic 1 Introduction to Differential Equations Focused on Physics.md",
-    "Ecuaciones Diferenciales/Topic 2 First-Order Differential Equations (Focused on Physics).md",
-    "Ecuaciones Diferenciales/Topic 4 Laplace Transforms (Focused in Physics).md",
-    "Ecuaciones Diferenciales/Content differential equations.md",
     "Mecánica Cuántica/PARCIALES",
     "Python/streamlit - planetas - web app",
     "Electromagnetismo/Parciales",
