@@ -1,9 +1,6 @@
 
----
 ## Órbitas y Potenciales en Mecánica Clásica
-
 ### 1. **Introducción: Potenciales Centrales y Conservación**
-
 
 En mecánica clásica, uno de los escenarios más importantes y recurrentes es el del movimiento bajo la acción de una **fuerza central**. Este tipo de fuerza aparece en contextos muy diversos, desde el estudio de los planetas alrededor del Sol, hasta la dinámica de electrones en campos atómicos. Una **fuerza central** es aquella cuya dirección siempre apunta hacia (o desde) un punto fijo del espacio, denominado **centro de fuerza**, y cuya magnitud depende únicamente de la distancia al centro. Esto se traduce en que el potencial asociado a la fuerza solo depende de la coordenada radial $r$ es decir:  
 $$
@@ -16,7 +13,7 @@ De acuerdo con **Goldstein (2002, Capítulo 3)**, las fuerzas derivadas de poten
 ---
 
 #### 1.1 Conservación del Momento Angular
-Una propiedad fundamental de las fuerzas centrales es que siempre son colineales con el vector de posición $\mathbf{r}$ es decir, $\mathbf{F} = f(r) \, \hat{\mathbf{r}}$. Por lo tanto, el **torque** (o momento de la fuerza) relativo al centro de fuerza es siempre cero:  
+Una propiedad fundamental de las fuerzas centrales es que siempre son colineales con el vector de posición $\mathbf{r}$ es decir, $\mathbf{F} = f(r) \, \hat{\mathbf{r}}$. Por lo tanto, el **torque** (o momento de la fuerza) relativo al centro de fuerza es siempre cero:
 $$
 \boldsymbol{\tau} = \mathbf{r} \times \mathbf{F} = \mathbf{r} \times f(r) \, \hat{\mathbf{r}} = \mathbf{0}
 $$ 
@@ -27,9 +24,8 @@ $$
 donde $\mathbf{p} = \mu \dot{\mathbf{r}}$es el momento lineal, y $\mu$ es la **masa reducida** del sistema. Esta conservación del momento angular tiene una consecuencia geométrica inmediata: el movimiento está **confinado a un plano perpendicular a $\mathbf{L}$**. Así, aunque el sistema es tridimensional, la dinámica se puede estudiar eficazmente en dos dimensiones.
 
 ---
-
 #### 1.2 Conservación de la Energía Mecánica Total
-Otra cantidad conservada en el movimiento bajo fuerzas conservativas es la **energía mecánica total** $E$ que se compone de la energía cinética $T$y la energía potencial $V(r)$. Si se trabaja en coordenadas polares planas $(r, \theta)$ la energía cinética de una partícula de masa reducida $\mu$ es:  
+Otra cantidad conservada en el movimiento bajo fuerzas conservativas es la **energía mecánica total** $E$ que se compone de la energía cinética $T$ y la energía potencial $V(r)$. Si se trabaja en coordenadas polares planas $(r, \theta)$ la energía cinética de una partícula de masa reducida $\mu$ es:  
 $$
 T = \frac{1}{2} \mu \left( \dot{r}^2 + r^2 \dot{\theta}^2 \right)
 $$ 
@@ -59,7 +55,7 @@ Como ya vimos en la sección anterior, la energía total del sistema puede escri
 $$
 E = \frac{1}{2} \mu \dot{r}^2 + \frac{L^2}{2 \mu r^2} + V(r)
 $$ 
-Aquí, $\frac{1}{2} \mu \dot{r}^2$representa la energía cinética radial, $\frac{L^2}{2 \mu r^2}$ corresponde a la energía cinética asociada al movimiento angular (aunque se comporta como un potencial respecto a $r $), y $V(r) $es la energía potencial central real.  
+Aquí, $\frac{1}{2} \mu \dot{r}^2$ representa la energía cinética radial, $\frac{L^2}{2 \mu r^2}$ corresponde a la energía cinética asociada al movimiento angular (aunque se comporta como un potencial respecto a $r$), y $V(r)$ es la energía potencial central real.  
 
 El segundo término, $\frac{L^2}{2 \mu r^2}$ no está presente en el potencial físico, pero aparece en la energía total debido a la transformación de coordenadas. Por esta razón se introduce el **potencial efectivo** $V_{\text{eff}}(r)$como:  
 $$
@@ -88,10 +84,11 @@ La forma del potencial efectivo depende tanto del momento angular $L$ como del t
   $$
   V_{\text{eff}}(r) = \frac{L^2}{2 \mu r^2} - \frac{k}{r^n}
   $$
-- Para el caso particular de la **gravitación newtoniana** ($V(r) = -\frac{G M m}{r}$), que corresponde a $n = 1$ el potencial efectivo es:  
-  $$
-  V_{\text{eff}}(r) = \frac{L^2}{2 \mu r^2} - \frac{G M m}{r}
-  $$ 
+- Para el caso particular de la **gravitación newtoniana** ($V(r) = -\frac{G M m}{r}$), que corresponde a $n = 1$ el potencial efectivo es:   
+
+$$
+V_{\text{eff}}(r) = \frac{L^2}{2 \mu r^2} - \frac{G M m}{r}
+$$ 
 Este potencial efectivo tiene una estructura característica: la primera parte $\frac{L^2}{2 \mu r^2}$ actúa como una **repulsión centrífuga**, y la segunda como una **atracción gravitatoria**.
 
 ---
