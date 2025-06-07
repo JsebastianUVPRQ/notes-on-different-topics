@@ -59,7 +59,7 @@ $$
 - **Linearity:** Follows directly from the linearity of differentiation and scalar multiplication.
 - **Hermiticity:** Relies on integration by parts and decay conditions of $L^2$ functions.
 
-Cuando la superficie está definida de manera general (no necesariamente alineada con los ejes), el **vector diferencial de área** \( d\vec{A} \) depende de cómo se parametrice la superficie. Para una superficie descrita por una función \( f(\mathbf{r}) = 0 \) o parametrizada en términos de dos variables, su expresión general se obtiene mediante el cálculo de vectores tangentes y su producto cruz. Aquí te explico:
+Cuando la superficie está definida de manera general (no necesariamente alineada con los ejes), el **vector diferencial de área** $d\vec{A}$ depende de cómo se parametrice la superficie. Para una superficie descrita por una función $f(\mathbf{r}) = 0$ o parametrizada en términos de dos variables, su expresión general se obtiene mediante el cálculo de vectores tangentes y su producto cruz.
 
 ---
 
