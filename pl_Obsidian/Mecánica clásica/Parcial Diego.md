@@ -1,3 +1,243 @@
+## 1.
+
+Question 1
+
+To register a model using a reference to the Run used to train the model, which SDK commands can you use?
+
+a. from azureml.core import Object
+
+run.register_model( model_name='classification_model',
+
+model_path='outputs/model.pkl',
+
+description='A classification model')
+
+b. from azureml.core import Model
+
+run.register_model( model_name='classification_model',
+
+model_path='outputs/model.pkl',
+
+description='A classification model')
+
+c. from azureml.core import Object
+
+classification_model = Model.register(workspace=your_workspace,
+
+model_name='classification_model',
+
+model_path='model.pkl',
+
+description='A classification model')
+
+d. from azureml.core import Model
+
+classification_model = Model.register(workspace=your_workspace,
+
+model_name='classification_model',
+
+model_path='model.pkl',
+
+description='A classification model')
+
+### 2.
+
+Question 2
+
+Which of the following SDK commands can you use to create a parallel run step?
+
+
+
+a. parallelrun_step = ParallelRunStep(
+
+name='batch-score',
+
+parallel_run_config=parallel_run_config,
+
+inputs=[batch_data_set.as_named_input('batch_data')],
+
+output=output_dir,
+
+arguments=[],
+
+allow_reuse=True
+
+b. parallelrun_step = ParallelRunStep(
+
+name='batch-score',
+
+parallel.run.config=parallel_run_config,
+
+inputs=[batch_data_set.as_named_input('batch_data')],
+
+output=output_dir,
+
+arguments=[],
+
+allow_reuse=True
+
+c. parallelrun_step = ParallelRunStep(
+
+name='batch-score',
+
+parallel_run_config=parallel.run.config,
+
+inputs=[batch_data_set.as_named_input('batch_data')],
+
+output=output_dir,
+
+arguments=[],
+
+allow_reuse=True
+
+d. parallelrun.step = ParallelRunStep(
+
+name='batch-score',
+
+parallel_run_config=parallel_run_config,
+
+inputs=[batch_data_set.as_named_input('batch_data')],
+
+output=output_dir,
+
+arguments=[],
+
+allow_reuse=True
+
+### 3.
+
+Question 3
+
+After the run of the pipeline has completed, which code can you use to retrieve the parallel_run_step.txt file from the output of the step?
+
+
+a. prediction_run = next(pipeline_run.get_children())
+
+prediction_output = prediction_run.get_output_data('inferences')
+
+prediction_output.download(local_path='results')
+
+b. for root, dirs, files in os.walk('results'):
+
+for file in files:
+
+if file.endswith('parallel_run_step.txt'):
+
+result_file = os.path.join(root,file)
+
+c. df = pd.read_csv(result_file, delimiter=":", header=None)
+
+df.columns = ["File", "Prediction"]
+
+print(df)
+
+### 4.
+
+Question 4
+
+You want to define a search space for hyperparameter tuning. The batch_size hyperparameter can have the value 128, 256, or 512 and the learning_rate hyperparameter can have values from a normal distribution with a mean of 10 and a standard deviation of 3.
+
+How can you code this in Python?
+
+
+
+from azureml.train.hyperdrive import choice, normal
+
+param_space = {
+
+'--batch_size': choice(128, 256, 512),
+
+'--learning_rate': lognormal(10, 3)
+
+}
+
+from azureml.train.hyperdrive import choice, uniform
+
+param_space = {
+
+'--batch_size': choice(128, 256, 512),
+
+'--learning_rate': uniform(10, 3)
+
+}
+
+from azureml.train.hyperdrive import choice, normal
+
+param_space = {
+
+'--batch_size': choice(128, 256, 512),
+
+'--learning_rate': qnormal(10, 3)
+
+}
+
+from azureml.train.hyperdrive import choice, normal
+
+param_space = {
+
+'--batch_size': choice(128, 256, 512),
+
+'--learning_rate': normal(10, 3)
+
+}
+
+### 5.
+
+Question 5
+
+How does random sampling select values for hyperparameters?
+
+
+
+It tries every possible combination of parameters in the search space
+
+From a mix of discrete and continuous values
+
+It tries to select parameter combinations that will result in improved performance from the previous selection
+
+### 6.
+
+Question 6
+
+True or False?
+
+Bayesian sampling can be used only with choice, uniform and quniform parameter expressions, and it can be combined with an early-termination policy.
+
+
+False
+
+True
+
+### 7.
+
+Question 7
+
+You want to implement a median stopping policy. How can you code this in Python?
+
+
+
+a. from azureml.train.hyperdrive import MedianStoppinPolicy
+
+early_termination_policy = MedianStoppingPolicy(slack_amount = 0.2,
+
+evaluation_interval=1,
+
+delay_evaluation=5)
+
+b. from azureml.train.hyperdrive import MedianStoppingPolicy
+
+early_termination_policy = MedianStoppingPolicy(evaluation_interval=1,
+
+delay_evaluation=5)
+
+c. from azureml.train.hyperdrive import MedianStoppingPolicy
+
+early_termination_policy = MedianStoppingPolicy(truncation_percentage=10,
+
+evaluation_interval=1,
+
+delay_evaluation=5)
+
 ### Exam Text Extraction
 
 The provided document is an exam in Spanish

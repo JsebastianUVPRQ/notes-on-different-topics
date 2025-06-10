@@ -34,8 +34,23 @@
               "icon": "lucide-file",
               "title": "Estadistica Descriptiva Aplicada"
             }
+          },
+          {
+            "id": "759542636bbb7e69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analisis, algebra lineal, basics/diferenciales - surface integrals - integrales de linea - integrales de superficie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "diferenciales - surface integrals - integrales de linea - integrales de superficie"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,19 +224,24 @@
       "workspaces:Gestionar disposiciones de espacio de trabajo": false
     }
   },
-  "active": "af0f33d9faa6aa5a",
+  "active": "759542636bbb7e69",
   "lastOpenFiles": [
+    "Analisis, algebra lineal, basics/diferenciales coordenadas generalizadas.md",
+    "Analisis, algebra lineal, basics/diferenciales - surface integrals - integrales de linea - integrales de superficie.md",
+    "Analisis, algebra lineal, basics/Sistemas de coordenadas.md",
+    "Estadística para DS y ML/Estadística descriptiva/Estadistica Descriptiva Aplicada.md",
+    "Analisis, algebra lineal, basics/MEDICION DE PARAMETROS EN AGUA POTABLE, NO-POTABLE Y RESIDUAL.md",
+    "2025-06-09.md",
+    "Mecánica clásica/Parcial Diego.md",
+    "Métodos Matemáticos Física/Operadores.md",
     "Métodos Matemáticos Física/The Fourier transform.md",
     "Métodos Matemáticos Física/Taller 12 Metodos matematicos.md",
     "Métodos Matemáticos Física/Funciones de green.md",
     "Mecánica Cuántica/PARCIALES/TEST 1 MIT.md",
-    "Estadística para DS y ML/Estadística descriptiva/Estadistica Descriptiva Aplicada.md",
     "Estadística para DS y ML/Estadística inferencial/Statistical_test_HipoProve.png",
     "Mecánica Cuántica/PARCIALES/TEST 2 MIT/Cleaning up units - ejercicio adimensionalidad.md",
     "Mecánica clásica/POTENCIALES - KEPLER - ORBITAS.md",
     "Mecánica Cuántica/PARCIALES/TEST 2 MIT",
-    "Analisis, algebra lineal, basics/Sistemas de coordenadas.md",
-    "Mecánica clásica/Parcial Diego.md",
     "Métodos Matemáticos Física/The Fourier transform - 2.md",
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS",
     "Mecánica clásica/GRAFICOS KEPLER - POTENCIALES - NUMERICOS.md",
@@ -235,11 +255,6 @@
     "Mecánica Cuántica/PARCIALES/COMPENDIO FÓRMULAS.md",
     "Azure ML E/DP-100/week2-create a regression model of cars price/test - quiz.md",
     "Métodos Matemáticos Física/Orthonormal System of Functions Ortonormales.md",
-    "Métodos Matemáticos Física/Integrales y espacios complejos.md",
-    "Métodos Matemáticos Física/Hypergraph.md",
-    "Métodos Matemáticos Física/Computación fundamental.md",
-    "Métodos Matemáticos Física/inner product - producto interno.md",
-    "Mecánica Cuántica/Hermite, Laguerre, Legendre.md",
     "Untitled.canvas",
     "Mecánica Cuántica/PARCIALES",
     "Python/streamlit - planetas - web app",
