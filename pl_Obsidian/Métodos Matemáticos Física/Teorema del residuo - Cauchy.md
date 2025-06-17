@@ -12,7 +12,7 @@ En el análisis complejo, el concepto de **residuo** de una función meromorfa e
 
 ## 1. Singularidades Aisladas
 
-Antes de hablar de residuos, debemos entender las **singularidades aisladas** de una función compleja $z)$. Un punto $z_0 \in \mathbb{C}$ es una singularidad aislada de $f(z)$ si $f(z)$ es analítica en una vecindad perforada de $z_0$, es decir, en un disco $0 < |z - z_0| < R$ para algún $R > 0$.
+Antes de hablar de residuos, debemos entender las **singularidades aisladas** de una función compleja $z$. Un punto $z_0 \in \mathbb{C}$ es una singularidad aislada de $f(z)$ si $f(z)$ es analítica en una vecindad perforada de $z_0$, es decir, en un disco $0 < |z - z_0| < R$ para algún $R > 0$.
 
 Las singularidades aisladas se clasifican en tres tipos:
 
@@ -20,6 +20,9 @@ Las singularidades aisladas se clasifican en tres tipos:
 - **Polos**: Si existe un entero positivo $n$ tal que $\lim_{z \to z_0} (z - z_0)^n f(z)$ existe y es no nulo, entonces $z_0$ es un polo de orden $n$. Si $n=1$, se llama polo simple.
 - **Singularidades esenciales**: Si la singularidad no es removible ni un polo. En este caso, la serie de Laurent de $f(z)$ alrededor de $z_0$ tiene infinitos términos con potencias negativas de $(z - z_0)$.
 
+$$
+|\Psi(\mathbf{r},t)|^2 = \dfrac{1}{a^3 2\pi (1+\delta(t)^2)^{3/2}} \exp\Bigg[\dfrac{(\mathbf{r} - \mathbf{v}t)^2}{2a^2(1+\delta(t)^2)}\Bigg]
+$$
 ---
 
 ## 2. Definición del Residuo

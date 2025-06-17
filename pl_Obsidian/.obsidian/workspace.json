@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Métodos Matemáticos Física/Operadores.md",
+                "file": "Mecánica Estadística/CONTENT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operadores"
-            }
-          },
-          {
-            "id": "759542636bbb7e69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmos/Gradient Descent.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gradient Descent"
+              "title": "CONTENT"
             }
           },
           {
@@ -41,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos/Algoritmos de ML/no-supervisado/k-means clustering.md",
+                "file": "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "k-means clustering"
+              "title": "Teorema del residuo - Cauchy"
+            }
+          },
+          {
+            "id": "1a56bf6d5a1b3292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mecánica clásica/Parcial Diego.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Parcial Diego"
             }
           }
         ],
@@ -69,7 +69,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hamilt",
+                "query": "gauge",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -224,39 +225,43 @@
       "workspaces:Gestionar disposiciones de espacio de trabajo": false
     }
   },
-  "active": "c9aefcef5050e0c6",
+  "active": "1a56bf6d5a1b3292",
   "lastOpenFiles": [
-    "Algoritmos/django-fastapi-itecol.md",
-    "Algoritmos/Gradient Descent.md",
-    "Sin título.canvas",
-    "Mecánica clásica/Variational calculus - Calculo de variaciones.md",
-    "Fisica fundamental 5/Taller 3.md",
-    "Mecánica Cuántica/Schrödinger Equation.md",
-    "Fisica fundamental 5/geometría algebraica.md",
-    "Mecánica Cuántica/Formalismo.md",
-    "Azure ML E/AI-900/RLHF.md",
+    "Métodos Matemáticos Física/Taller 12 Metodos matematicos.md",
+    "Métodos Matemáticos Física/Deep research gemini - Desarrollo teórico mat especiales.md",
     "Métodos Matemáticos Física/Matematicas Especiales.md",
-    "Mecánica Cuántica/PARCIALES/asignation asignation 3 - mec - quant.md",
-    "Mecánica Cuántica/PARCIALES/asignacion 5 - mec - quant.md",
-    "Mecánica Cuántica/Hermite, Laguerre, Legendre.md",
-    "Mecánica Cuántica/span generado envolvente lineal.md",
-    "Mecánica Cuántica/PARCIALES/COMPENDIO FÓRMULAS.md",
-    "Mecánica Cuántica/PARCIALES/TEST FINAL.md",
-    "Mecánica Cuántica/PARCIALES/TEST 1 MIT.md",
-    "Mecánica Cuántica/PARCIALES/TEST 2 MIT/Cleaning up units - ejercicio adimensionalidad.md",
-    "Mecánica Cuántica/Ecuaciones fundamentales.md",
-    "Analisis, algebra lineal, basics/Sistemas de coordenadas.md",
+    "Electromagnetismo/Sin título.md",
+    "Untitled.canvas",
+    "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
+    "Mecánica Estadística/CONTENT.md",
+    "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
+    "Mecánica Estadística/Tipos de variables.md",
+    "Mecánica Estadística/Equilibrio.md",
+    "Mecánica Estadística/1 - 2 unidades.md",
+    "Métodos Matemáticos Física/SOLUCION.md",
+    "Sin título.canvas",
+    "Exposicion de datos.md",
+    "Imagen de WhatsApp 2024-03-20 a las 21.23.48_854f5998.jpg",
+    "Métodos Matemáticos Física/Taller00.md",
     "Analisis, algebra lineal, basics/diferenciales - surface integrals - integrales de linea - integrales de superficie.md",
-    "Analisis, algebra lineal, basics/diferenciales coordenadas generalizadas.md",
-    "Analisis, algebra lineal, basics/MEDICION DE PARAMETROS EN AGUA POTABLE, NO-POTABLE Y RESIDUAL.md",
+    "Pasted image 20250614183610.png",
+    "Métodos Matemáticos Física/Orthonormal System of Functions Ortonormales.md",
+    "Métodos Matemáticos Física/inner product - producto interno.md",
+    "Métodos Matemáticos Física/Computación fundamental.md",
+    "Pasted image 20250614181627.png",
     "Métodos Matemáticos Física/Operadores.md",
-    "Estadística para DS y ML/Estadística descriptiva/Estadistica Descriptiva Aplicada.md",
+    "Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
+    "Fisica fundamental 5/Course overview.md",
     "2025-06-09.md",
-    "Mecánica clásica/Parcial Diego.md",
+    "Algoritmos/Gradient Descent.md",
+    "Fisica fundamental 5/Taller 3.md",
+    "Algoritmos/Algoritmos de ML/no-supervisado/k-means clustering.md",
+    "Algoritmos/django-fastapi-itecol.md",
+    "Mecánica clásica/Variational calculus - Calculo de variaciones.md",
+    "Mecánica Cuántica/Schrödinger Equation.md",
     "Estadística para DS y ML/Estadística inferencial/Statistical_test_HipoProve.png",
     "Mecánica Cuántica/PARCIALES/TEST 2 MIT",
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS",
-    "Untitled.canvas",
     "Mecánica Cuántica/PARCIALES",
     "Python/streamlit - planetas - web app",
     "Electromagnetismo/Parciales",
@@ -268,11 +273,8 @@
     "Métodos Matemáticos Física",
     "Mecánica Estadística",
     "Pasted image 20241231214942.png",
-    "Imagen de WhatsApp 2024-03-20 a las 21.23.48_854f5998.jpg",
     "Pasted image 20240228002856.png",
     "Pasted image 20240228002622.png",
-    "Pasted image 20240228002550.png",
-    "Pasted image 20240228002533.png",
-    "Pasted image 20240228002513.png"
+    "Pasted image 20240228002550.png"
   ]
 }

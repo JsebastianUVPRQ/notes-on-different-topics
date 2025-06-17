@@ -1,1 +1,7 @@
-{}
+{
+	"nodes":[
+		{"id":"d9c1dc227c93ed38","type":"link","url":"https://gemini.google.com/share/b89a75ae0fdb","x":-960,"y":-240,"width":1380,"height":440},
+		{"id":"75d274e7c9fe0096","type":"link","url":"https://gemini.google.com/share/b89a75ae0fdb","x":-920,"y":6580,"width":1060,"height":17400}
+	],
+	"edges":[]
+}
